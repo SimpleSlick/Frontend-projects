@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Mania</title>
+
+    <link rel="stylesheet" href="pizza.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="icon" type="image/jpg" href="images/img.jpg" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <!-- * Sidebar toggle -->
+        <input type="checkbox" id="toggle" />
+
+        <label for="toggle" class="menu-btn">☰</label>
+        <label for="toggle" class="overlay"></label>
+
+        <!-- * Sidebar -->
+        <div class="sidebar">
+          <a>Home</a>
+          <a>Menu</a>
+          <a>Cart</a>
+          <a>Offers</a>
+          <a>Contact Us</a>
+          <a>Login / Sign Up</a>
+        </div>
+
+        <!-- * Location icon -->
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>
+            <span>Enter your <strong>Location</strong></span>
+          </p>
+        </div>
+
+        <!-- * Login & Sign Up -->
+        <div class="login-sign">
+          <input type="button" class="log" value="Login" />
+          <input type="button" class="log1" value="Sign Up" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- * whats new section -->
+      <section class="whats-new">
+        <h2>What's New</h2>
+
+        <div class="banner-list">
+          <div class="banner-item">
+            <img src="images/big.png" />
+          </div>
+          <div class="banner-item">
+            <img src="images/chesse burst.webp" />
+          </div>
+          <div class="banner-item">
+            <img src="volcano.jpg" />
+          </div>
+          <div class="banner-item">
+            <img src="waffles.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- * order section -->
+      <section class="our-pizza">
+        <h2>Our Pizza</h2>
+
+        <div class="pizza-list">
+          <div class="pizza-item">
+            <img src="loaded.jpg" />
+
+            <div class="pizza-info">
+              <h3>Veg Loaded Pizza</h3>
+              <p>Cheesy pizza topped with fresh veggies.</p>
+              <span class="price">₹349</span>
+            </div>
+
+            <button class="add-cart">Add to Cart</button>
+          </div>
+
+          <div class="pizza-item">
+            <img src="mix.jpg" />
+
+            <div class="pizza-info">
+              <h3>Veggie Mix Pizza</h3>
+              <p>>Loaded with fresh capsicum, onions, tomatoes, and olives.</p>
+              <span class="price">₹279</span>
+            </div>
+
+            <button class="add-cart">Add to Cart</button>
+          </div>
+
+          <div class="pizza-item">
+            <img src="pizza.jpg" />
+
+            <div class="pizza-info">
+              <h3>Golden Corn Pizza</h3>
+              <p>
+                Loaded with golden corn, melted cheese and a sprinkle of herbs.
+              </p>
+              <span class="price">₹249</span>
+            </div>
+
+            <button class="add-cart">Add to Cart</button>
+          </div>
+
+          <div class="pizza-item">
+            <img src="chick.jpg" />
+
+            <div class="pizza-info">
+              <h3>Chicken Garlic Pizza</h3>
+              <p>
+                Juicy chicken pieces blended with aromatic Garlic and gooey
+                cheese for savory delight.
+              </p>
+              <span class="price">₹319</span>
+            </div>
+
+            <button class="add-cart">Add to Cart</button>
+          </div>
+
+          <div class="pizza-item">
+            <img src="chilli.jpg" />
+
+            <div class="pizza-info">
+              <h3>Cheese Chilli Pizza</h3>
+              <p>
+                A cheesy delight loaded with spicy green chillies for perfect
+                fiery twist
+              </p>
+              <span class="price">₹399</span>
+            </div>
+
+            <button class="add-cart">Add to Cart</button>
+            </div>
+
+            <div class="pizza-item">
+              <img src="burst.jpg" />
+
+              <div class="pizza-info">
+                <h3>Korean Chicken Burst Pizza</h3>
+                <p>
+                  Spicy-sweet Korean-style chicken topped with cheese and tangy
+                  sauce for bold flavour kick.
+                </p>
+                <span class="price">₹399</span>
+              </div>
+
+              <button class="add-cart">Add to Cart</button>
+          </div>
+
+          <div class="pizza-item">
+              <img src="volcano.jpg" />
+
+              <div class="pizza-info">
+                <h3>Volcano Cheese pizza</h3>
+                <p>
+                  Fiery mix of jalapenos, red paprika, and spicy cheese blend.
+                </p>
+                <span class="price">₹419</span>
+              </div>
+
+              <button class="add-cart">Add to Cart</button>
+      </section>
+
+      <!-- * Beverages section -->
+<section class="beverages">
+  <h2>Beverages</h2>
+
+  <div class="beverage-list">
+    <div class="beverage-item">
+      <img src="coke.jpg" />
+      <h3>Coca Cola</h3>
+      <span>₹60</span>
+      <button>Add</button>
+    </div>
+
+    <div class="beverage-item">
+      <img src="pepsi.webp" />
+      <h3>Pepsi</h3>
+      <span>₹60</span>
+      <button>Add</button>
+    </div>
+
+    <div class="beverage-item">
+      <img src="sprite.jpg" />
+      <h3>Sprite</h3>
+      <span>₹55</span>
+      <button>Add</button>
+    </div>
+
+    <div class="beverage-item">
+      <img src="iced-tea.jpg" />
+      <h3>Iced Tea</h3>
+      <span>₹79</span>
+      <button>Add</button>
+    </div>
+
+    <div class="beverage-item">
+      <img src="coolberg.webp" />
+      <h3>Coolberg</h3>
+      <span>₹109</span>
+      <button>Add</button>
+    </div>
+
+        <div class="beverage-item">
+      <img src="cappuccino.jpg" />
+      <h3>Cappuccino</h3>
+      <span>₹119</span>
+      <button>Add</button>
+    </div>
+
+    <div class="beverage-item">
+      <img src="choco-shake.jpg" />
+      <h3>Choco Shake</h3>
+      <span>₹129</span>
+      <button>Add</button>
+    </div>
+
+        <div class="beverage-item">
+      <img src="vrigin-mojito.jpg" />
+      <h3>Virgin Mojito</h3>
+      <span>₹149</span>
+      <button>Add</button>
+    </div>
+
+    <div class="beverage-item">
+      <img src="bobatea.jpg" />
+      <h3>Boba tea</h3>
+      <span>₹179</span>
+      <button>Add</button>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Pizza Mania 🍕</h3>
+      <p>
+        Freshly baked pizzas, loaded toppings, and unbeatable flavors —
+        delivered hot to your doorstep.
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Offers</a>
+      <a href="#">Cart</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Support</h3>
+      <a href="#">Help Center</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Refund Policy</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <p>Stay connected for spicy updates 🌶️</p>
+
+      <div class="footer-social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Pizza Mania. All rights reserved.
+  </div>
+</footer>
+
+  </body>
+</html>
