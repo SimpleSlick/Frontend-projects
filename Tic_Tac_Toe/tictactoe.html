@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/png" href="tictactoe_img.png">
+    <link rel="stylesheet" href="tictactoe_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="head_text">
+            Tic Tac Toe
+        </div>
+    </header>
+    <main>
+
+        <div class="msg-container hide">
+            <p class="msg">Winner</p>
+            <input type="button" value="New game" class="Btn" id="new-game"></input>
+        </div>
+        <!-- game area -->
+        <div class="container">
+            <div class="game_box">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <!-- game functions and rules -->
+         <input type="button" value="Reset Grid" class="Btn" id="reset"></input>
+         <input type="button" value="Rules" class="Btn" id="rule"></input>
+         <input type="button" value="Change Theme" class="Btn" id="theme"></input>
+
+         <!-- rules panel hidden until got clicked -->
+         <div class="rules-panel" id="rulesPanel">
+            <div class="rules-content">
+                <div class="close-button" id="closeRule">
+                    <h2>Game Rules</h2>
+                        <ul>
+                            <li>Player X starts the game.</li>
+                            <li>Click on any empty box to place your mark.</li>
+                            <li>First player to make 3 in a row wins.</li>
+                            <li>If all boxes fill and no one wins -> Draw</li>
+                        </ul>
+                </div>
+            </div>
+         </div>
+
+
+    </main>
+    <script src="tictactoe_logic.js"></script>
+</body>
+</html>
